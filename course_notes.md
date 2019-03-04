@@ -1,3 +1,6 @@
+# Section 1: Choosing a Web Conformance Guideline
+-----------------------------------------------------------------------------------------
+
 ## Section 508
 Reference: www.section508.gov
 - quick reference guide
@@ -19,3 +22,16 @@ Reference: https://www.w3.org/WAI/intro/wcag.php
 WCAG 2.0 Level AA should be the goal
 - WCAG is international
 - This will also cover section 508
+
+
+# Section 2: HTML
+-----------------------------------------------------------------------------------------
+## Document Structure and Landmarks
+
+
+# Section 3: Media
+-----------------------------------------------------------------------------------------
+
+
+# Section 4: Responsive Web Design & Accessibility
+-----------------------------------------------------------------------------------------
