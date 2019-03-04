@@ -27,6 +27,7 @@ WCAG 2.0 Level AA should be the goal
 # Section 2: HTML
 -----------------------------------------------------------------------------------------
 ## Document Structure and Landmarks
+- Set up landmarks on the page
 
 
 # Section 3: Media
