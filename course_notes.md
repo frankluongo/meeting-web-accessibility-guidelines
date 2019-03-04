@@ -14,3 +14,8 @@ A = Basic level
 AA = Medium
 AAA = Highest
 Reference: https://www.w3.org/WAI/intro/wcag.php
+
+## Section 508 vs. WCAG 2.0
+WCAG 2.0 Level AA should be the goal
+- WCAG is international
+- This will also cover section 508
