@@ -49,17 +49,29 @@
         Here is a list of awesome products you can buy. If you don't see something you need, let us know!
       </p>
 
+      <!--
+        ? This is a good place for a table!
+        ? Screen readers need tables to navigate through them
+
+       -->
+
       <table>
+        <!-- ? Within the table, we add this caption. It MUST be first -->
         <caption>List of products</caption>
+        <!-- ? This is a row for headers -->
         <thead>
           <tr>
+            <!-- ? Scope will associate values -->
+            <!-- ? Scope can be col, row or rowgroup -->
             <th scope="col">Product</th>
             <th scope="col">Description</th>
             <th scope="col">Cost</th>
           </tr>
         </thead>
+        <!-- ? This is where the body of the content lives -->
         <tbody>
           <tr>
+            <!-- ? scope of row means that this is a row header -->
             <th scope="row">Basic Web Server</th>
             <td>Basic server to host your basic site</td>
             <td>$199/yr</td>
@@ -78,6 +90,7 @@
       </table>
 
       <table>
+        <!-- ? YOU ARE AT 5:37 OF THE TABLES VIDEO. -->
         <caption>
           Bundles
           <span class="visuallyHidden">: This table has a list of bundles,

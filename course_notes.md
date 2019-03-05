@@ -54,7 +54,15 @@ Skip Links
 - Navigation should always be in the same order
 - Add a Sitemap for usability and SEO
 
+## Tables
+Used for displaying content in rows and columns
+Not useful for layouts
 
+Parts of a Table
+- <caption></caption> = Used to display text for the table
+- <thead>, <tfoot>, <tbody> = Used for holding content
+- <th>
+- Scope and headers
 
 # Section 3: Media
 -----------------------------------------------------------------------------------------
