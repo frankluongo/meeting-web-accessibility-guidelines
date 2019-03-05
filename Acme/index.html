@@ -14,13 +14,20 @@
 
 <body>
   <header class="header">
+    <!--
+      ? Add a Skip link to go to main content for keyboard users, these are usually positioned absolutely off the page but come on the page when focused
+     -->
     <a class="skip-link" href="#main">Skip to main</a>
     <div class="wrapper">
       <img class="header-logo" src="images/logo.png" alt="" />
       <span class="header-title">Acme Web Design, we are the best!</span>
+      <!-- ? We've also added a search form -->
+      <!-- ? We add the role="search" to inform screen readers what this is for -->
       <form action="/search" method="POST" role="search">
         <label class="visuallyHidden visible@768" for="query">Search</label>
+        <!-- ? Adding a type of search also is for screen readers -->
         <input id="query" type="search" />
+        <!-- ? These should have consistent naming, don't use search here and go somewhere else -->
         <button>Search</button>
       </form>
     </div>
@@ -28,6 +35,8 @@
   </header>
 
   <nav id="main-nav" class="navigation" aria-label="site">
+    <!-- ? Making this an unordered list make it more semantic and usable -->
+    <!-- ? Make sure to use text instead of images -->
     <ul>
       <li><a href="index.html">Home</a></li>
       <li><a href="about.html">About</a></li>
@@ -43,6 +52,7 @@
   </div>
 
   <div id="wrapper">
+    <!-- ? We make sure this has an id to reference and a tab index of -1 -->
     <main id="main" class="main" tabindex="-1">
       <h1>Welcome to Acme Web Design!</h1>
       <p>
@@ -50,7 +60,7 @@
       </p>
 
       <h2>How to make an awesome website</h2>
-      <!-- Here we need an ordered list  -->
+      <!-- ? Here we need an ordered list  -->
       <ol>
         <li>Find examples of other sites you like</li>
         <li>Gather any pictures or graphics you like</li>
@@ -86,6 +96,8 @@
     </nav>
     <p>Copyright 2016, All rights reserved.</p>
     <p>Best if viewed on my monitor</p>
+    <!-- ? Always have a sitemap! -->
+    <!-- ? Use descriptive names for links, for instance, say "Site Map" here. -->
     <p><a href="sitemap.html">Site Map</a></p>
   </footer>
   <script src="js/navigation.js"></script>

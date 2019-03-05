@@ -44,6 +44,17 @@ Screen readers can go through them easily
 This meets level A 1.3.1 for WCAG
 Visual cues, via CSS, must be conveyed non-visually via semantics
 
+## Navigation and Skip Links
+Consistent Navigation
+Multiple Ways to Find Page / Content
+Meaningful Link Content
+Consistent Overall Interface
+Skip Links
+
+- Navigation should always be in the same order
+- Add a Sitemap for usability and SEO
+
+
 
 # Section 3: Media
 -----------------------------------------------------------------------------------------

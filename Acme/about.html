@@ -1,41 +1,41 @@
 <!doctype html>
-<!-- State the doctype first. This should be the first line and have nothing before it. -->
+<!-- ? State the doctype first. This should be the first line and have nothing before it. -->
 <html lang="en">
-<!-- State the language of the page. -->
+<!-- ? State the language of the page. -->
 
 <head>
   <meta charset="utf-8" />
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <!-- Set character set and compatibility mode -->
+  <!-- ? Set character set and compatibility mode -->
   <title>About | Acme Web Design</title>
-  <!-- Set a title for the page -->
+  <!-- ? Set a title for the page -->
   <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
-  <!-- Set the viewport for users. Allow people to pinch the interface if they need to. -->
+  <!-- ? Set the viewport for users. Allow people to pinch the interface if they need to. -->
   <meta name="description" content="We build and design the best sites!" />
 
   <link href="css/main.css" rel="stylesheet" />
-  <!-- Use relative units for spacing. This will allow the page to adjust accordingly if a user resizes the browser -->
-  <!-- Users need to be able to bump up sizing up to 200% without problems -->
+  <!-- ? Use relative units for spacing. This will allow the page to adjust accordingly if a user resizes the browser -->
+  <!-- ? Users need to be able to bump up sizing up to 200% without problems -->
 </head>
 
 <!--
 
-  Use Landmark elements
+  ? Use Landmark elements
   - header
   - nav
   - main
   - footer
   - aside
 
-  There can only be one main
+  ? There can only be one main
  -->
 
 <body>
-  <!-- Use header -->
+  <!-- ? Use header -->
   <header class="header">
     <a class="skip-link" href="#main">Skip to main</a>
     <div class="wrapper">
-    <!-- Make sure you have no elements with the same ID name. Use class -->
+    <!-- ? Make sure you have no elements with the same ID name. Use class -->
       <img class="header-logo" src="images/logo.png" alt="" />
       <span class="header-title">Acme Web Design, we are the best!</span>
       <form action="/search" method="POST" role="search">
@@ -47,8 +47,8 @@
     <button id="menu-trigger" type="button">Menu</button>
   </header>
 
-  <!-- Use aria-label to designate which part of the site/app the element corresponds to -->
-  <!-- This aria-label says, "Hey, this nav is for the site" -->
+  <!-- ? Use aria-label to designate which part of the site/app the element corresponds to -->
+  <!-- ? This aria-label says, "Hey, this nav is for the site" -->
   <nav id="main-nav" class="navigation" aria-label="site">
     <ul>
       <li><a href="index.html">Home</a></li>
@@ -66,13 +66,13 @@
 
   <div id="wrapper">
     <main id="main" class="main" tabindex="-1">
-      <!-- We need to have an H1 on the page -->
-      <!-- The h1 should match the page title -->
+      <!-- ? We need to have an H1 on the page -->
+      <!-- ? The h1 should match the page title -->
       <h1>About</h1>
       <p>
         Acme makes the best web sites. There is nobody better. Please take the time to read about our awesome company.
       </p>
-      <!-- Headings need to descend down and be subheadings of one another -->
+      <!-- ? Headings need to descend down and be subheadings of one another -->
       <h2>Who We Are</h2>
       <p>
         We are a couple of hip people that totally rock at life, and we make the best websites.
@@ -95,7 +95,7 @@
     </main>
 
     <aside class="sidebar">
-      <!-- This label says, "hey, this nav is for the page" -->
+      <!-- ? This label says, "hey, this nav is for the page" -->
       <nav class="navigation" aria-label="page">
         <ul>
           <li><a href="link1.html">Sub Link 1</a></li>
