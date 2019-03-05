@@ -57,6 +57,7 @@ Skip Links
 ## Tables
 Used for displaying content in rows and columns
 Not useful for layouts
+- Make tables as flat as possible
 
 Parts of a Table
 - <caption></caption> = Used to display text for the table
