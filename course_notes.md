@@ -33,6 +33,16 @@ WCAG 2.0 Level AA should be the goal
 - Landmarks
 - Headings <h1> through <h6>
 
+## Lists
+List Types:
+- Ordered List <ol>
+- Unorded List <ul>
+- Description List <dl />
+
+Lists add semantic usability to a website
+Screen readers can go through them easily
+This meets level A 1.3.1 for WCAG
+Visual cues, via CSS, must be conveyed non-visually via semantics
 
 
 # Section 3: Media
