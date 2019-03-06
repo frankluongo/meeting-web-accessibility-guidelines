@@ -65,6 +65,24 @@ Parts of a Table
 - <th>
 - Scope and headers
 
+## Forms
+
+- Accessible Forms
+- Error Identification
+- Color
+- Keyboard Nav / Focus
+
+### Level AA 1.4.3 - Contrast
+The visual presenation of text and images of text has a contrast ratio of at least 4.5:1
+
+
+### Additional Guidelines
+Level AA 3.3.4 Error Prevention
+- Anytime a user is engaging in a legal commitment or financial transaction, they have to have the ability to modify, change, or delete that info. They can also review that info before submitting
+Level 2.2.1 Timing Adjustable
+- For each time limit that is set by the content, the user is able to either turn off, adjust or extend that limit
+
+
 # Section 3: Media
 -----------------------------------------------------------------------------------------
 

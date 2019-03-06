@@ -45,7 +45,7 @@
   <div id="wrapper">
     <main id="main" class="main" tabindex="-1">
       <h1>Contact</h1>
-
+      <!-- ? Be sure to indicate when content is in another langauge -->
       <p>We want to here from you! Oh, also <span lang="es">se habla español!</span></p>
 
       <div>
@@ -75,30 +75,52 @@
         </a>
       </div>
 
+      <!-- ? Remove any text from a form -->
+      <!--
+        ? aria-live is a live region, letting screen readers know that there is dynamic content
+        ? Never set a tabindex greater than 0
+        ? only ever set tabindex as -1 or 0
+        ? tabindex="-1" removes tab from natural order
+      -->
       <section id="errors" aria-live="assertive" tabindex="-1"></section>
 
+      <!-- ? novalidate is added to remove browser validation defaults -->
       <form id="contact" action="/contact.php" method="POST" novalidate>
 
-
+        <!--
+          ? Include labels for inputs
+          ? Make sure to include special formats for dates as well
+          ? Be sure to indicate required fields
+          ? Don't depend on color or sensory characteristics
+          ? Keyboard focus should be enabled
+          ? Errors should be identified and suggestions for fixing them should be provided
+        -->
+        <!-- ? For attributes associate a label with an input -->
         <label for="fullname">
           Name (Required):
           <span class="error-message">Name cannot be empty</span>
         </label>
+        <!-- ? Add required attribute -->
+        <!-- ? Add aria-invalid="true" when this is invalid -->
         <input id="fullname" name="fullname" type="text" required />
 
         <label for="email">
           Email (Required):
           <span class="error-message">Email cannot be empty</span>
         </label>
+        <!-- ? Provide email or tel types to these inputs -->
         <input id="email" name="email" type="email" required />
 
 
         <label for="phone">Phone Number</label>
         <input id="phone" name="phone" type="tel" />
 
+        <!-- ? this is a good way to group items that are related -->
         <fieldset>
+          <!-- ? we need to indicate what the fieldset is about -->
           <legend>Phone Number Type</legend>
 
+          <!-- ? implicit label wraps the item -->
           <label>
             <input type="radio" name="phone-type" value="home"> Home
           </label>
