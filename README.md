@@ -138,6 +138,11 @@ Level 2.2.1 Timing Adjustable
   - Provide Audio Description
     - Narrate Non-Visual Cues
 
+## Additional Media Guidelines
+  - If any media is autoplayed, it should be able to be turned off if it's longer than 3 seconds
+  - Content like carousel should be able to be paused
+  - No more than 3 flashes per second
+  - Any `<iframe>` embedded on a page should have a descriptive Title Attribute
 
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
