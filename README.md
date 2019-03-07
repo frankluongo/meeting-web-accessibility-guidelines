@@ -86,6 +86,18 @@ Level 2.2.1 Timing Adjustable
 # Section 3: Media
 -----------------------------------------------------------------------------------------
 
+## Images
+- Use real text instead of images of text
+
+- All Images must use the Alt Attribute!
+  `<img src="" alt="whatever">`
+  - Images used for decoration should just contain an empty alt attribute, as screen readers will know to ignore them
+
+Tips for Writing ALT Text
+- Don't describe the image literally
+- Avoid using words like picture or image of
+- Describe the meaning or purpose of the image
+- Include any text used in the image
 
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
