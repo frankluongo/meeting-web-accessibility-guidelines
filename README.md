@@ -100,8 +100,14 @@ Level 2.2.1 Timing Adjustable
 - Include any text used in the image
 
 ## Background Images Via CSS
+- Use visually hidden spans to communicate the meaning of a background image
 
-
+## SVG
+- Add a `role=img` for semantics
+- Use the `<title>` tag to describe it. This will be nested in the SVG
+- Use the `<desc>` tag if necessary for a more descriptive explanation
+- Add `aria-labelledby` that references the title tag
+- Add `aria-describedby` to reference the desc tag if necessary
 
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
