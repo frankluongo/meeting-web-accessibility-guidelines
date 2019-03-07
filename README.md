@@ -146,3 +146,12 @@ Level 2.2.1 Timing Adjustable
 
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
+
+## Switching Context
+  - Whenever the page context changes, i.e. when a site navigation switches from a list of links to a dropdown, the user must be notified
+  - The solution here is to use a hamburger menu to allow users to select where they want to go
+
+## Order of Content / Focus
+
+
+## Additional Responsive Guidelines
