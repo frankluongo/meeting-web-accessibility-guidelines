@@ -109,5 +109,19 @@ Level 2.2.1 Timing Adjustable
 - Add `aria-labelledby` that references the title tag
 - Add `aria-describedby` to reference the desc tag if necessary
 
+## Audio
+### Create a transcript
+  - Pay a service
+  - Use speech recognition server
+    - Google Docs Voice Typing
+    - Window Speech Recognition
+    - Apple Dictation
+    - Dragon Naturally Speaking
+  - Manual
+  - Tips
+    - Include names of speakers
+    - Describe everything
+  - You can provide these transcripts as a link or inline
+
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
