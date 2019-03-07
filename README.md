@@ -1,5 +1,4 @@
 # Section 1: Choosing a Web Conformance Guideline
------------------------------------------------------------------------------------------
 
 ## Section 508
 Reference: www.section508.gov
@@ -23,21 +22,22 @@ WCAG 2.0 Level AA should be the goal
 - WCAG is international
 - This will also cover section 508
 
+-----
 
 # Section 2: HTML
------------------------------------------------------------------------------------------
+
 ## Document Structure and Landmarks
 - Set <!doctype>, language and encoding
 - Text resizing via viewport and relative units
-- Unique Page <title>
+- Unique Page `<title>`
 - Landmarks
-- Headings <h1> through <h6>
+- Headings `<h1>` through `<h6>`
 
 ## Lists
 List Types:
-- Ordered List <ol>
-- Unorded List <ul>
-- Description List <dl />
+- Ordered List `<ol>`
+- Unorded List `<ul>`
+- Description List `<dl />`
 
 Lists add semantic usability to a website
 Screen readers can go through them easily
@@ -60,9 +60,9 @@ Not useful for layouts
 - Make tables as flat as possible
 
 Parts of a Table
-- <caption></caption> = Used to display text for the table
-- <thead>, <tfoot>, <tbody> = Used for holding content
-- <th>
+- `<caption>``</caption>` = Used to display text for the table
+- `<thead>`, `<tfoot>`, `<tbody>` = Used for holding content
+- `<th>`
 - Scope and headers
 
 ## Forms
@@ -82,9 +82,9 @@ Level AA 3.3.4 Error Prevention
 Level 2.2.1 Timing Adjustable
 - For each time limit that is set by the content, the user is able to either turn off, adjust or extend that limit
 
+-----
 
 # Section 3: Media
------------------------------------------------------------------------------------------
 
 ## Images
 - Use real text instead of images of text
@@ -144,8 +144,9 @@ Level 2.2.1 Timing Adjustable
   - No more than 3 flashes per second
   - Any `<iframe>` embedded on a page should have a descriptive Title Attribute
 
+-----
+
 # Section 4: Responsive Web Design & Accessibility
------------------------------------------------------------------------------------------
 
 ## Switching Context
   - Whenever the page context changes, i.e. when a site navigation switches from a list of links to a dropdown, the user must be notified
