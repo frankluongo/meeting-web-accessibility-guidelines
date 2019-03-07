@@ -152,6 +152,9 @@ Level 2.2.1 Timing Adjustable
   - The solution here is to use a hamburger menu to allow users to select where they want to go
 
 ## Order of Content / Focus
-
+  - Visual order must match the DOM order because Screen readers depend on DOM order
+  - Focus also has to happen in a logical manner
+  - Autofocus should only be used when you have only one form, like Google
+  - Focus should not move automatically from one field to another
 
 ## Additional Responsive Guidelines
