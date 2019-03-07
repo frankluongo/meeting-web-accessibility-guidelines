@@ -93,11 +93,15 @@ Level 2.2.1 Timing Adjustable
   `<img src="" alt="whatever">`
   - Images used for decoration should just contain an empty alt attribute, as screen readers will know to ignore them
 
-Tips for Writing ALT Text
+### Tips for Writing ALT Text
 - Don't describe the image literally
 - Avoid using words like picture or image of
 - Describe the meaning or purpose of the image
 - Include any text used in the image
+
+## Background Images Via CSS
+
+
 
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
