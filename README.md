@@ -1,21 +1,21 @@
 # Section 1: Choosing a Web Conformance Guideline
 
 ## Section 508
-Reference: www.section508.gov
-- quick reference guide
+- Reference: www.section508.gov
 
-## WCAG 2.0
-POUR = Perceivable / Operable / Understandable / Robust
-Perceivable = everyone should be able to see it
-Operable - Everyone should be able to operate it
-Understandable - Users must be able to understand the information
-Robust - Users must be able to use the technology
+## WCAG 2.0: Level A, AA, AAA
 
-A, AA, AAA levels of conformance
-A = Basic level
-AA = Medium
-AAA = Highest
-Reference: https://www.w3.org/WAI/intro/wcag.php
+### POUR = Perceivable / Operable / Understandable / Robust
+  - Perceivable = everyone should be able to see it
+  - Operable - Everyone should be able to operate it
+  - Understandable - Users must be able to understand the information
+  - Robust - Users must be able to use the technology
+
+### A, AA, AAA levels of conformance
+- Reference: https://www.w3.org/WAI/intro/wcag.php
+  - A = Basic level
+  - AA = Medium
+  - AAA = Highest
 
 ## Section 508 vs. WCAG 2.0
 WCAG 2.0 Level AA should be the goal
@@ -34,53 +34,52 @@ WCAG 2.0 Level AA should be the goal
 - Headings `<h1>` through `<h6>`
 
 ## Lists
-List Types:
+
+### Three Types of Lists:
 - Ordered List `<ol>`
 - Unorded List `<ul>`
 - Description List `<dl />`
 
-Lists add semantic usability to a website
-Screen readers can go through them easily
-This meets level A 1.3.1 for WCAG
-Visual cues, via CSS, must be conveyed non-visually via semantics
+### Advantages of Lists
+- Lists add semantic usability to a website
+- Screen readers can go through them easily
+- This meets level A 1.3.1 for WCAG
+- Visual cues, via CSS, must be conveyed non-visually via semantics
 
 ## Navigation and Skip Links
-Consistent Navigation
-Multiple Ways to Find Page / Content
-Meaningful Link Content
-Consistent Overall Interface
-Skip Links
-
+- Navigation must be consistent. It should always appear in the same order wherever it appears.
+- Multiple Ways to Find Page / Content
+- Meaningful Link Content
+- Consistent Overall Interface
+- Skip Links
 - Navigation should always be in the same order
 - Add a Sitemap for usability and SEO
 
 ## Tables
-Used for displaying content in rows and columns
-Not useful for layouts
+- Use for displaying content in rows and columns
+- DO NOT use for layouts
 - Make tables as flat as possible
 
-Parts of a Table
-- `<caption>``</caption>` = Used to display text for the table
+### Parts of a Table
+- `<caption>` = Used to display text for the table
 - `<thead>`, `<tfoot>`, `<tbody>` = Used for holding content
 - `<th>`
-- Scope and headers
+- Add `scope` and `headers` to form elements to indicate relation to other parts of the form
 
 ## Forms
 
-- Accessible Forms
-- Error Identification
-- Color
-- Keyboard Nav / Focus
+### Accessible Forms
+- Forms need to be properly labeled and accessible to all users
 
-### Level AA 1.4.3 - Contrast
-The visual presenation of text and images of text has a contrast ratio of at least 4.5:1
+### Error Identification
+- Errors must be identified and explained to a user when they happen
+- If possible, steps should be taken to prevent errors using validation
 
+### Color
+- There has to be an adequate level of contrast for color AND you can't rely on color alone to indicate state
 
-### Additional Guidelines
-Level AA 3.3.4 Error Prevention
-- Anytime a user is engaging in a legal commitment or financial transaction, they have to have the ability to modify, change, or delete that info. They can also review that info before submitting
-Level 2.2.1 Timing Adjustable
-- For each time limit that is set by the content, the user is able to either turn off, adjust or extend that limit
+### Keyboard Nav / Focus
+- A use needs to be able to navigate through a form using the keyboard. You must provide a focus state to indicate where the user is at any given time
 
 -----
 
@@ -164,3 +163,12 @@ Level 2.2.1 Timing Adjustable
     - aria-hidden will only work for screen readers
   - Use relative units, either em, rem or %
   - Maintain Color Contrast with Text over Images
+
+
+  ----
+
+# Significant Notes & Takeaways
+
+- Level AA 1.4.3 - Contrast: The visual presenation of text and images of text has a contrast ratio of at least 4.5:1
+- Level AA 3.3.4 Error Prevention: Anytime a user is engaging in a legal commitment or financial transaction, they have to have the ability to modify, change, or delete that info. They can also review that info before submitting
+- Level 2.2.1 Timing Adjustable: For each time limit that is set by the content, the user is able to either turn off, adjust or extend that limit
