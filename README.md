@@ -158,3 +158,8 @@ Level 2.2.1 Timing Adjustable
   - Focus should not move automatically from one field to another
 
 ## Additional Responsive Guidelines
+  - Be careful with offscreen content
+    - To remove something from being used by Screen readers, add the HTML5 hidden attribute OR use `visibility: hidden` OR use `aria-hidden="true"`
+    - aria-hidden will only work for screen readers
+  - Use relative units, either em, rem or %
+  - Maintain Color Contrast with Text over Images
