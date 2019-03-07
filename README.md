@@ -123,5 +123,21 @@ Level 2.2.1 Timing Adjustable
     - Describe everything
   - You can provide these transcripts as a link or inline
 
+## Video
+  - Provide Captions
+    - Types of Caption
+      - Open Captions = Always visible, embedded/burned into videos
+      - Closed Captions = Overlay, toggled on/off by the user
+  - Captioning Prerecorded Video
+    - YouTube
+      - Auto-Subtitle
+      - Upload a transcript and sync
+      - Manual Entry
+    - Video Captioning Services
+    - Manual
+  - Provide Audio Description
+    - Narrate Non-Visual Cues
+
+
 # Section 4: Responsive Web Design & Accessibility
 -----------------------------------------------------------------------------------------
